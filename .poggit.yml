@@ -9,5 +9,5 @@ projects:
     path: ""
     php: 8.1
     libs:
-      - src: "https://jaxkdev.loca.lt/ci/PoggitTestPlugins/EasyUI/libEasyUI"
+      - src: "PoggitTestPlugins/EasyUI/libEasyUI"
         branch: "pm5"
