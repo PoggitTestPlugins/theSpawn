@@ -7,7 +7,6 @@ projects:
   theSpawn:
     icon: "icon.png"
     path: ""
-    php: 8.1
     libs:
       - src: "PoggitTestPlugins/EasyUI/libEasyUI"
         branch: "pm5"
