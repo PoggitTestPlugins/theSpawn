@@ -7,6 +7,4 @@ projects:
   theSpawn:
     icon: "icon.png"
     path: ""
-    libs:
-      - src: "PoggitTestPlugins/EasyUI/libEasyUI"
-        branch: "pm5"
+
