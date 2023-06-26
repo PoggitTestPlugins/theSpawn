@@ -1,6 +1,6 @@
 <?php
 
-namespace supercrafter333\theSpawn;
+namespace supercrafter333\theSpawn\main;
 
 use JsonException;
 use pocketmine\block\{Air,
@@ -39,6 +39,14 @@ use function phpversion;
 use function sort;
 use function str_contains;
 use function strtolower;
+
+use supercrafter333\theSpawn\ConfigManager;
+use supercrafter333\theSpawn\EventListener;
+use supercrafter333\theSpawn\HubManager;
+use supercrafter333\theSpawn\LastDeathPositionManager;
+use supercrafter333\theSpawn\LocationHelper;
+use supercrafter333\theSpawn\MsgMgr;
+use supercrafter333\theSpawn\SpawnDelayManager;
 
 /**
  * Class theSpawn
